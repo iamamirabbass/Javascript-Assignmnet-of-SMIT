@@ -1,13 +1,19 @@
                 //  *******************************Q#1*******************************
-// var ascii=prompt("Enter Value To Check Is It Number or Alphabet");
-// if(ascii>=48 && ascii<=57){
-//     alert("Entered Value is Number!")
-// }
-// else{
-//     alert("Dont Know!")
-// }
+var user_value=prompt("Enter Value To Check Is It Number or Alphabet");
 
+if(user_value.charCodeAt()>=48 && user_value.charCodeAt()<=57){
+    alert("Number")
+}
+else if(user_value.charCodeAt()>=65 && user_value.charCodeAt()<=90){
+    alert("Capital Letter")
+}
+else if(user_value.charCodeAt()>=97 && user_value.charCodeAt()<=122){
+    alert("Small Letter")
+}
 
+else{
+        alert("Invalid")
+}
                 //  *******************************Q#2*******************************
 var num1=+prompt("Enter First Number");
 var num2=+prompt("Enter First Number");

@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "header-font";
+    src: url(assests/Source_Sans_3/static/SourceSans3-Bold.ttf);
+}
+@font-face {
+    font-family: "body-font";
+    src: url(assests/Source_Sans_3/static/SourceSans3-Medium.ttf);
+}
+.parent-header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.header{
+    height: 180px;
+    width: 1000px; ;
+    background-color: #0554FE;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 50px;
+    margin-top: 25px;
+
+}
+.header-text{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 40px;
+}
+.header img{
+    height: 120px;
+}
+
+.parent-box{
+    height:max-content ;
+    width: 900px;
+    border: 2px;
+    border-color: rgb(126, 125, 123);
+    border-style:solid;
+    margin: auto;
+     margin-top: 40px;
+     padding-bottom: 10px;
+}
+.box{
+    height: 90px;
+    width: 850px;
+    border: 2px;
+    border-color: rgb(126, 125, 123);
+    border-style:solid;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.box div{
+    font-family:"body-font";
+    font-size: 20px;
+}
+
+.box div button{
+    background-color:#00B94A;
+    color: white;
+    border: none;
+    border-radius:5px ;
+    padding: 5px 15px;
+}
+
+.box div button a{
+    text-decoration: none;
+    color: white;
+}
