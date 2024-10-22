@@ -72,13 +72,51 @@ for (i=1;i<=10;i++)
 
 
 // ***************************************************Q#7***************************************************
-var bakery=["Cake","Apple Pie","Cookie","Chips","Patties"];
-var item=prompt("Enter The Item You Want");
-for(var i=0;i<bakery.length;i++){
-    if(bakery[i]===item){
-        alert(item+ "Available!")
+var bakery=["biscuit","cake","chips","sandwich","paties"]; //Bakery Items. 
+var user_input=prompt("Welcome To our Bakery! What You need");//Getting User input.
+var foundit=false;
+
+for (var i=0;i<=bakery.length;i++){
+    if (user_input===bakery[i]){
+        foundit=true;
     }
-    else{
-        alert("We are Sorry" +item+ "is not available")
-    }   
 }
+if (foundit){
+    alert("Item Available!");
+    
+}
+else{
+    alert("Item not  Available!")
+}
+
+
+// ***************************************************Q#8***************************************************
+var num=[25,52,86,5,79];
+var largest_num=[0];
+for (var i=0;i<=num.length;i++){
+    if(num[i]>largest_num){
+        largest_num=num[i]
+    }
+}
+alert(largest_num);
+
+// ***************************************************Q#9***************************************************
+   var num=[25,52,86,5,79];
+    var smallest_num=[0];
+    for (var i=0;i<=num.length;i++){
+        if(num[i]<smallest_num){
+            smallest_num=num[i]
+        }
+    }
+    alert(smallest_num);
+
+// ***************************************************Q#10***************************************************
+
+    for (var i=1;i<=100;i++){
+        if(i%5==0){
+            document.write(`${i}<br>
+        
+            
+            `)
+    }
+} 
