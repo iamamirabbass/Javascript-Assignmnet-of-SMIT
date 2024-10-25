@@ -92,8 +92,62 @@
 
 
 // *****************************************************Qno12*****************************************************
-var  num=35.36;
-alert(typeof(num));// skip
-
+// var  num=35.36;
+// document.write(typeof(num));
+// var num_type=num.toString();
+// document.write(typeof(num_type));
+// var updated_num = num_type.replace(".","");
+// document.write(updated_num);
 
 // *****************************************************Qno13*****************************************************
+// var user_name=prompt("Enter User Name");
+// var incorrect=false;
+// for (var i=0;i<=user_name.length;i++){
+// if (user_name.charCodeAt()===33||user_name.charCodeAt()==44||user_name.charCodeAt()==46||user_name.charCodeAt()==64)
+//     {incorrect=true;
+// }
+
+// }
+// if (incorrect){
+// alert("Please Enter Valid Password");
+
+// }
+// else{
+// alert("Password Sucessfully Generated!")
+
+// }
+
+// *****************************************************Qno14*****************************************************
+// var bakery=["cake","apple pie","cookie","chips","patties"];
+// var user_item=prompt("What do you want To Order?")
+// var foundit=false;
+// var index;
+// for(var i=0;i<=bakery.length;i++){
+//     if(user_item.toLowerCase()===bakery[i]){
+//         foundit=true;
+//         index=i;
+//     }
+// }
+// if (foundit){
+//     alert(user_item+" Available at Index "+index)
+// }
+// else{
+//     alert(user_item+" not available")
+// }
+
+// *****************************************************Qno15*****************************************************
+
+var user_pass=prompt("Enter Password");
+var correct_pass=false;
+
+for (var i=0;i<=user_pass.length;i++){
+if ((user_pass.charCodeAt() >=48&&user_pass.charCodeAt()<=57)&&(user_pass.charCodeAt()>=65&&user_pass.charCodeAt()<=90||user_pass.charCodeAt()>=97&&user_pass.charCodeAt()<=122)&&(user_pass.charCodeAt()[0]!=48&&user_pass.charCodeAt()<=57)&&user_pass.length>=6){
+    correct_pass=true;
+}
+}
+if(correct_pass){
+    alert("Password Sucessfully Generated!")
+}
+else{
+    alert("Please Enter Valid Password!")
+}
