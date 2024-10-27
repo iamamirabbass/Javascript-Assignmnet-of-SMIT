@@ -52,3 +52,26 @@ else{
 var random=Math.floor(Math.random()*100)+1;
 var random_value=random.toFixed(0);
 document.write(`Random  Value is ${random_value}`);
+
+
+
+// *****************************************************Qno7*****************************************************
+
+var user_weight=prompt("Enter Your Weight In Kilograms");
+
+var result=parseFloat(user_weight);
+alert("You Weight Is "+result+"Kilogram");
+
+
+
+
+// *****************************************************Qno8*****************************************************
+
+var seceret_num=Math.floor(Math.random()*6)+1;
+var user_input=+prompt("Enter Any Number To Check");
+if(user_input===seceret_num){
+    alert("Congratulation You are the Winner!")
+}
+else{
+    alert("Try Again!")
+}
