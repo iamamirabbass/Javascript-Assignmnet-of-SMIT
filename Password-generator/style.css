@@ -1,4 +1,35 @@
 @font-face {
     font-family:"inter" ;
-    src: url();
+    src: url(assest/Inter/static/Inter_18pt-Bold.ttf);
+}
+
+
+.navbar-color{
+    background-color: white;
+}
+
+.Hero-text{
+    margin-top: 70px;
+    font-family: "inter";
+    font-size: 45px;
+    color: #071D2B;
+}
+
+
+.hero-text-2{
+    font-size: 17px;
+}
+
+.password-box{
+    border-radius: 5px;
+}
+
+.copy-button{
+    font-size: 15px;
+    font-family: "inter";
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
 }
