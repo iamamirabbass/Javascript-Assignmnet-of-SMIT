@@ -1,0 +1,22 @@
+.box{
+    height: 500px;
+    width: 500px;
+    background-color: wheat;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.box-parent{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 200px;
+}
+
+.Login{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.email{
+    margin-top: 100px;
+}
