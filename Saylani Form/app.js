@@ -1,0 +1,37 @@
+function submit_form(){
+    var country= document.getElementById('country')
+    var city= document.getElementById('city')
+    var course= document.getElementById('course')
+    var computer_proficiency= document.getElementById('computer_proficiency')
+    var name= document.getElementById('name')
+    var father_name= document.getElementById('father_name')
+    var email= document.getElementById('email')
+    var phone= document.getElementById('phone')
+    var cnic= document.getElementById('cnic')
+    var father_cnic= document.getElementById('father_cnic')
+    var date= document.getElementById('date')
+    var gender= document.getElementById('gender')
+    var address= document.getElementById('address')
+    var qualification= document.getElementById('qualification')
+    var laptop= document.getElementById('laptop')
+
+    // print
+
+    console.log(`Country: ${country.value}`)
+    console.log(`City: ${city.value}`)
+    console.log(`Course: ${course.value}`)
+    console.log(`Computer Proficiency: ${computer_proficiency.value}`)
+    console.log(`Name: ${name.value}`)
+    console.log(`Father: ${father_name.value}`)
+    console.log(`E-mail: ${email.value}`)
+    console.log(`Ph: ${phone.value}`)
+    console.log(`Country: ${cnic.value}`)
+    console.log(`CNIC: ${country.value}`)
+    console.log(`Father CNIC: ${father_cnic.value}`)
+    console.log(`Date: ${date.value}`)
+    console.log(`Gender: ${gender.value}`)
+    console.log(`Address: ${address.value}`)
+    console.log(`Qualification: ${qualification.value}`)
+    console.log(`Laptop: ${laptop.value}`)
+
+}
