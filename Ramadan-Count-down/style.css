@@ -1,0 +1,78 @@
+    @font-face {
+    font-family: "popins";
+    src: url(assest/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "popins-light";
+    src: url(assest/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "popins-regular";
+    src: url(assest/Poppins/Poppins-Regular.ttf);
+}
+/* .header-image{
+    width: 1366px;
+    height: 133px;
+    
+} */
+
+
+/* .hero-image img{
+    width: 580px;
+    height: 480px;
+} */
+
+
+.hero-text{
+    margin-left: 100px;
+    font-family: "popins";
+    font-size: 36px;
+    margin-top: 25px;
+    color: #FCCB05;
+    
+}
+
+
+.counter-header{
+    margin-top: 20px;
+    margin-left: 100px;
+    /* color: whitesmoke; */
+}
+
+
+
+.counter{
+    font-weight: 600;
+    font-size: 72px;
+    font-family: 'popins-light';
+    /* color: whitesmoke; */
+
+}
+
+.counter-header table th, td {
+        padding: 10px;
+      }
+
+
+      .blessing-quote{
+        font-family:"popins-regular" ;
+        font-size: 14px;
+        margin-left:110px ;
+        /* color: whitesmoke; */
+      }
+
+      .btn{
+        margin-top: 30px;
+        margin-left: 300px;
+        font-family: "popins-light";
+        font-size: 16px;
+        padding: 10px 35px 10px 35px;
+        border-radius: 15px;
+        background-color: #FCCB05;
+        border-style: none;
+      }
+      .btn:hover{
+        background-color: #1F1B58;
+      }
+/* body{background-color: black;} */

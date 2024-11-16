@@ -1,0 +1,112 @@
+.Hero-text{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.player-info-box-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.player-info-box{
+    height: 200px;
+    width: 600px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    
+}
+.player-name-input{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items:center;
+    margin-top: 50px;
+}
+
+.btn-parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.player1-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.player2-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.box{
+    height: 600px;
+    width: 550px;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 30px;
+}
+
+
+.toss-animation img{
+    height: 350px;
+    width: 350px;
+    margin-left: 100px ;
+}
+
+.calling-text{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family:monospace;
+}
+
+.selection-button-parent{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.btn-head{
+    padding: 5px 20px 5px 20px ;
+    font-size: 25px ;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #FFAC00;
+    color: white;
+}
+
+.btn-tail{
+    padding: 5px 23px 5px 23px ;
+    font-size: 25px ;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #00B3BC;
+    color: white;
+}
+
+.toss-btn{
+    
+    padding: 5px 23px 5px 23px ;
+    font-size: 25px ;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #009570;
+    color: white;
+    
+}
+
+.toss-btn-parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px ;
+    margin-bottom: 100px;
+}

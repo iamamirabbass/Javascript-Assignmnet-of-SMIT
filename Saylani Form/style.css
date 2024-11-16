@@ -1,0 +1,60 @@
+.banner-image img{
+    height: 220px;
+    width: 1100px;
+
+
+}
+.banner_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box{
+    width: 450px;
+    border-color: #90C54B;
+    height: 50px;
+}
+
+.form-box:hover{
+    border-color: #90C54B;
+    box-shadow: #90C54B;
+}
+
+label{
+    color: #126FB3;
+    font-size: 15px;
+}   
+
+.column-1{
+    display: flex;
+    justify-content:center;
+    align-items: center;   
+}
+
+
+.form-box-2{
+    width: 1050px;
+    border-color: #90C54B;
+    height: 50px;
+}
+
+
+.btn{
+    background-color: #0D6DB7;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 10px;
+    color: white    ;
+    
+}
+.btn-parent{
+    display: flex;
+    justify-content: center;
+
+}
+
+.instruction{
+
+    font-size: 15px;
+}

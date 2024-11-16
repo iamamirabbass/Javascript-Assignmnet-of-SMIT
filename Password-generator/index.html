@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password-Generator</title>
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password-Generator</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+<<<<<<< HEAD
     
 <!-- Navbar -->
 <section>
@@ -44,5 +47,121 @@
     <script src="popper.js"></script>
     <script src="bundle.js"></script>
     <script src="app.js"></script>
+=======
+
+  <!-- NavBar -->
+  <div class="container ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid navbar-color ">
+        <a class="navbar-brand" href="#"><img src="assest/images/avast-logo-default.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-center " id="navbarNav">
+          <ul class="navbar-nav gap-3  ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Security</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Privacy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ">Perfomance</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- Nav Bar End -->
+
+  <!-- hero section start -->
+  <section>
+
+    <div class="Hero-text d-flex justify-content-center">Random Password Generator</div>
+    <div class="d-flex justify-content-center hero-text-2">Create strong and secure passwords to keep your account safe
+      online.</div>
+  </section>
+  <!-- hero section end -->
+
+  <section>
+    <div class="main-parent d-flex justify-content-evenly ">
+
+      <div class="row d-flex align-items-center">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 ">
+          <img src="assest/images/hero-img.svg" alt="-hero-image">
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 ">
+
+          <form class="row g-3">
+
+            <div class="col-auto">
+
+              <input  type="text" class="form-control password-box" id="inputPassword2" id="passValue" >
+            </div>
+            <div class="col-auto">
+              <button onclick="generate_password()" type="submit" class="btn btn-primary mb-3  copy-button">Generate </button>
+            </div>
+          </form>
+
+          <div> <span>Password lenght: </span><span><input type="range" class="slider" min="0" max="50" id="customRange1"></span>
+        </div>
+        <div>10</div>
+        <!-- Checkboxes -->
+
+
+        <div class="d-flex mt-4"><span>Characters </span> <span class="d-flex ms-5 gap-3">   <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            ABC
+          </label>
+        </div> 
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            abc
+          </label>
+        </div> 
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            123
+          </label>
+        </div> 
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            #$& 
+          </label>
+        </div> 
+
+      </span>
+    </div>
+      <div>used:</div>
+      </div>
+
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+  <script src="bootstrap.js"></script>
+  <script src="popper.js"></script>
+  <script src="bundle.js"></script>
+  <script src="app.js"></script>
+>>>>>>> d8c970323e131de5355db62b537598857c141466
 </body>
+
 </html>
