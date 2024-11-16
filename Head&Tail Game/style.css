@@ -1,9 +1,55 @@
+.Hero-text{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.player-info-box-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.player-info-box{
+    height: 200px;
+    width: 600px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    
+}
+.player-name-input{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items:center;
+    margin-top: 50px;
+}
+
+.btn-parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.player1-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.player2-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
 
 .box{
     height: 600px;
     width: 550px;
     background-color: whitesmoke;
-    margin-top: 100px;
+    margin-top: 30px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     border-radius: 30px;
 }
@@ -19,7 +65,7 @@
     display: flex;
     justify-content: center;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:monospace;
 }
 
 .selection-button-parent{
