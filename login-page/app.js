@@ -1,11 +1,13 @@
 function authentication(){
     var username=document.getElementById('username')
     var password=document.getElementById('password')
-    if (username ||password ==="admin"){
-        console.log(`User Name: ${username.value}`)
-        console.log(`Password: ${password.value}`)
+    if (username.value && password.value =="admin"){
+        // console.log(`User Name: ${username.value}`)
+        // console.log(`Password: ${password.value}`)
+
+        window.location.assign("https://amir-smit-js.netlify.app/saylani%20form/")
     }
     else{
-        console.log("Wrong Pasword")
+        alert("Please Enter Correct Password")
     }
 }
