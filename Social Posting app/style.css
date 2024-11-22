@@ -42,3 +42,15 @@
     border-style: none;
 
 }
+
+.postcard{
+    height: 200px;
+    width:700px;
+    background-color: aquamarine;
+
+}
+
+.postcard-body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
