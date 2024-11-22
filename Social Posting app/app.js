@@ -1,3 +1,14 @@
+var selectimgpath;
+
+function selectedimage(src){
+    var bgimage= document.getElementsByClassName("bg-image")
+    for( var i=o; i<bgimage.length;i++){
+        bgimage[i].className='bgimage'
+    }
+    event.target.classlist.add('selectedimage')
+    selectimgpath =src
+}
+
 function post_Submit(){
     var user_name=document.getElementById('name');
     var title=document.getElementById('title');
