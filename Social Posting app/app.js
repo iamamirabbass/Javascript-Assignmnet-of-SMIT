@@ -3,7 +3,7 @@ var selectimgpath;
 function selectedimage(src){
     var bgimage= document.getElementsByClassName("bg-image")
     for( var i=o; i<bgimage.length;i++){
-        bgimage[i].className='bgimage'
+        bgimage[i].className='bg-image'
     }
     event.target.classlist.add('selectedimage')
     selectimgpath =src
@@ -22,8 +22,9 @@ function post_Submit(){
                 listingcontainer.innerHTML +=
                 `
                 <div class="card me-5 p-3 mt-5">
-          <div class="card-header d-flex justify-content-between card-header">  <span>~@${user_name.value}</span><span>~@${time}</span> </div>
-          <div style="background-color: bisque;"   class="card-body">
+          <div class="card-header d-flex justify-content-between card-header">
+            <span >~@${user_name.value}</span><span class="ms-5">${time}</span> </div>
+          <div style="background-image: url(${selectimgpath});"   class="card-body">
             <h5 class="card-title">${title.value}</h5>
             <p class="card-text"> ${description.value}</p>
            
@@ -43,4 +44,5 @@ function post_Submit(){
                     alert("Username is required");
                   }
                 }
+                
                 
