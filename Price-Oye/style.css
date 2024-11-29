@@ -1,0 +1,29 @@
+.search-bar{
+    padding-right:  60px ;
+}
+
+.login-btn{
+    padding: 10px 25px 10px 25px;
+    background-color: white;
+    color: #48AFFF;
+}
+.login-btn:hover{
+background-color: #48AFFF;
+}
+
+.register-btn{
+    padding: 10px 25px 10px 25px;
+background-color: #48AFFF;
+}
+.register-btn:hover{
+    background-color:white;
+    color: #48AFFF;
+    }
+
+.navbar{
+    background-color: #48AFFF;
+}
+
+/* .slider-image-size{
+   max-width: 100%;
+} */
