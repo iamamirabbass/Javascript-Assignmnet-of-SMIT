@@ -27,3 +27,152 @@ background-color: #48AFFF;
 /* .slider-image-size{
    max-width: 100%;
 } */
+
+
+.product-card_parent{
+    margin-top: 200px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+.product-picture-box{
+    height:500px ;
+    width: 500px;
+    border-color:grey ;
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-picture-box img{
+    height: 450px;
+    width: 450px;
+}
+
+.rating span{
+    margin-right: 10px;
+
+}
+
+.stars i{
+    color: #FFC109;
+}
+
+
+.assured span{
+
+    margin-right: 10px;
+}
+
+
+.Priceoye-Price{
+    color: lightslategrey;
+}
+
+.price{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.discount{
+    color: lightslategrey
+}
+
+
+.off{
+    height: 20px;
+    width: 20px;
+    background-color: #F0FAF7;
+    border-radius:  10px;
+    padding: 3px;
+    color: #2FB891;
+    margin-left: 15px;
+}
+
+
+.specs span {
+    height: 35px;
+    width: 50px;
+    border: solid;
+    border-color:grey ;
+    padding: 8px 5px ;
+    border-radius: 10px;
+    margin-right: 5px;
+    
+}
+
+:hover.specs span{
+    height: 35px;
+    width: 50px;
+    border: solid;
+    border-color:#48AFFF ;
+    padding: 8px 5px ;
+    border-radius: 10px;
+    margin-right: 5px;
+    color: #48AFFF;
+}
+
+ .specs button{
+    padding: 5px 5px ;
+    font-size: 13px;
+    border-radius: 8px;
+    margin-right: 5px;
+    color: grey;
+    background-color: white;
+    font-weight: 500;
+    border-color: grey;
+}
+
+:hover.specs button{
+    padding: 5px 5px ;
+    font-size: 13px;
+    border-radius: 8px;
+    margin-right: 5px;
+    color: #48AFFF;
+    background-color: white;
+    font-weight: 500;
+    border-color: #48AFFF;
+} 
+
+
+/* .spec-2{
+    padding: 5px 5px ;
+    font-size: 13px;
+    border-radius: 8px;
+    margin-right: 5px;
+    color: grey;
+    background-color: white;
+    font-weight: 500;
+    border-color: grey;
+}
+:hover.spec-2 {
+    padding: 5px 5px ;
+    font-size: 13px;
+    border-radius: 8px;
+    margin-right: 5px;
+    color: grey;
+    background-color: white;
+    font-weight: 500;
+    border-color: grey;
+} */
+
+
+.add-to-cart{
+    padding: 8px 45px;
+    background-color: #F88B2B;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.Compare{
+    padding: 8px 45px;
+    background-color: #48AFFF;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+}
