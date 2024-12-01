@@ -30,10 +30,21 @@ background-color: #48AFFF;
 
 
 .product-card_parent{
-    margin-top: 200px;
-    /* display: flex;
+     margin-top: 200px;
+     /* display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;  */
+    margin-left: 600px;
+/* 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; */
+}
+
+
+.row {
+    margin: 0; /* Ensures no extra margins interfere */
 }
 
 
@@ -175,4 +186,31 @@ background-color: #48AFFF;
     color: white;
     border-style: none;
     border-radius: 10px;
+}
+
+.brandselection{
+    padding: 3px 10px;
+    color: #48AFFF;
+    border: solid;
+    border-color: #48AFFF;
+    border-radius: 10px;
+
+}
+.productselection{
+    padding: 3px 10px;
+    color: #48AFFF;
+    border: solid;
+    border-color: #48AFFF;
+    border-radius: 10px;
+
+}
+
+
+.search{
+    padding: 3px 10px;
+    color: #F88B2B;
+    border: solid;
+    border-color: #F88B2B;
+    border-radius: 10px;
+    background-color: white;
 }
