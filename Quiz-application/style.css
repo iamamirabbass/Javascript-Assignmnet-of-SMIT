@@ -1,0 +1,70 @@
+.navbar{
+    /* background-color: #8DC63F; */
+    background-color: whitesmoke;
+}
+
+.navbar-brand img{
+    height: 70px;
+    /* width: 100px; */
+}
+
+.navbar-text h4{
+    color: #8DC63F;
+   
+}
+
+.navbar-text h4:hover{
+    color: #2675B5;
+}
+.main-section-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.hero-text{
+    font-size: 80px;
+    color: #0C6DB7;
+}
+.hero-text-secondary{
+    font-size: 60px;
+    font-weight: lighter;
+    color: #8DC63F;
+}
+
+.hero-text-discription{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+.button-lable{
+    font-size: 25px;
+
+}
+
+.signup-btn{
+    padding: 5px 20px;
+    background-color: #2675B5;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+}
+
+.signup-btn:hover{
+    background-color: #8DC63F;
+
+}
+
+.login-btn{
+    padding: 5px 20px;
+    background-color: #8DC63F;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+}
+
+.login-btn:hover{
+    background-color: #2675B5;
+
+}
