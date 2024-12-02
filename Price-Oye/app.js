@@ -327,13 +327,15 @@ var watches = {
   }
   
   var productImage = document.getElementById("productImage");
-  var producttitle=document.getElementById("producttitle");
+  var productName=document.getElementById("product_name");
+  var productprice=document.getElementById("product_price");
   function searchProduct() {
     for (var keys in watches[selectedBrand]) {
       if (watches[selectedBrand][keys].name === selectedProduct) {
         console.log(watches[selectedBrand][keys]);
         productImage.src = watches[selectedBrand][keys].img;
-        producttitle = watches[selectedBrand][keys].name;
+        productName.textContent=watches[selectedBrand][keys].name;
+        productprice.textContent=watches[selectedBrand][keys].price;
       }
     }
   
