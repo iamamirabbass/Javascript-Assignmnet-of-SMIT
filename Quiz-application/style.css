@@ -52,7 +52,7 @@
 }
 
 .signup-btn:hover{
-    background-color: #8DC63F;
+    background-color: #1a5c92;
 
 }
 
@@ -65,6 +65,37 @@
 }
 
 .login-btn:hover{
-    background-color: #2675B5;
+    background-color: #476d13;
 
+}
+
+
+.modal-title{
+   margin-left: 100px;
+}
+
+.Sign-Up-btn{
+    background-color: #2675B5;
+    border-style: none;
+}
+
+.Sign-Up-btn:hover{
+    background-color: #8DC63F;
+    border-style: none;
+}
+
+
+.Login-btn{
+    background-color: #8DC63F;
+    border-style: none;
+}
+
+.Login-btn:hover{
+    background-color: #2675B5;
+    border-style: none;
+}
+
+
+.modal-title-login{
+    margin-left: 150px;
 }

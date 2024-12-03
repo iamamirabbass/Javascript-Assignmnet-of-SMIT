@@ -11,11 +11,11 @@
     
 <!-- navbar -->
 
-<div class="container">
+<div class="container-fluid">
 <div class="navbar-parent">
 
 
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg  ">
         <div class="container-fluid d-flex justify-content-space-around ">
           <a class="navbar-brand" href="#"><img src="assets/smit.png" alt=""></a>
           <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,8 +49,12 @@
     <div class="d-flex justify-content-center align-items-center  hero-text-discription mt-2">Saylani Mass IT Training program is an institute who delivers latest IT education (FREE OF COST). </div>
     <div class="d-flex justify-content-center align-items-center  hero-text-discription">Saylani Mass Training Department is one of the department which is running under Saylani Welfare Trust Management.</div>
     <div class="d-flex justify-content-center align-items-center button-lable mt-5">Start Your Quiz Here</div>
-    <div class="d-flex justify-content-center align-items-center gap-3 mt-3"><button class="signup-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" >Sign-Up</button><button class="login-btn">Login</button></div>
-</div>
+
+    <div class="row">
+      <div class="d-flex justify-content-center align-items-center gap-3 mt-3"><button class="signup-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" >Sign-Up</button><button class="login-btn" data-bs-toggle="modal" data-bs-target="#login-modal">Login</button></div>
+
+    </div>
+    </div>
 </div>
 
 
@@ -65,20 +69,88 @@
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header d-flex justify-content-center">
-          <h1 class="modal-title fs-5 " id="exampleModalLabel">Student Sign-up</h1>
+        <div class="modal-header ">
+          <h1 class="modal-title fs-5 " id="exampleModalLabel">Student Registration Form</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
-          ...
+
+        <div class="modal-body-parent d-flex justify-content-center ms-3 me-2 ">
+        <div class="modal-body ">
+          
+      
+          
+          <label for="exampleFormControlInput1" class="form-label label" > <i class="fa-solid fa-user me-2"></i>Your Name</label> 
+        <div class="mb-3 d-flex justify-content-center">
+           
+            <input type="email" class="form-control input-box" id="username" id="exampleFormControlInput1" placeholder="username">
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label mt-3"> <i class="fa-solid fa-envelope me-2"></i>Your Email </label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+
+          <label for="exampleFormControlInput1" class="form-label label-2 mt-3"> <i class="fa-solid fa-lock me-1"></i> Your Password</label>
+        <div class="mb-3 d-flex justify-content-center">
+            
+            <input type="password" class="form-control input-box"  id="password" id="exampleFormControlInput1" placeholder="Password">
+          </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+
+        <div class="modal-footer d-flex justify-content-center">
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+          <button type="button" class="btn btn-primary Sign-Up-btn">Sign-Up</button>
         </div>
       </div>
     </div>
   </div>
+
+
+
+<!-- login-modal -->
+
+
+
+<div class="modal fade" id="login-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header ">
+        <h1 class="modal-title-login fs-5 " id="login-modalLabel">Student Login</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body-parent d-flex justify-content-center ms-3 me-2 ">
+      <div class="modal-body ">
+        
+    
+        
+        <!-- <label for="exampleFormControlInput1" class="form-label label" > <i class="fa-solid fa-user me-2"></i>Your Name</label> 
+      <div class="mb-3 d-flex justify-content-center">
+         
+          <input type="email" class="form-control input-box" id="username" id="exampleFormControlInput1" placeholder="username">
+        </div> -->
+
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label mt-3"> <i class="fa-solid fa-envelope me-2"></i>Your Email </label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+
+        <label for="exampleFormControlInput1" class="form-label label-2 mt-3"> <i class="fa-solid fa-lock me-1"></i> Your Password</label>
+      <div class="mb-3 d-flex justify-content-center">
+          
+          <input type="password" class="form-control input-box"  id="password" id="exampleFormControlInput1" placeholder="Password">
+        </div>
+      </div>
+    </div>
+
+      <div class="modal-footer d-flex justify-content-center">
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+        <button type="button" class="btn btn-primary Login-btn">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 </div>
 
