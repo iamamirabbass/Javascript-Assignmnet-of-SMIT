@@ -99,3 +99,22 @@
 .modal-title-login{
     margin-left: 150px;
 }
+
+
+.result-btn{
+    padding: 0px 25px 0px 25px;
+    background-color: #2675B5;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-style: none;
+    border-radius: 10px;
+
+}
+
+.result-btn:hover{
+    background-color: #2675B5;
+}
+
+.card-body{
+    padding-right:150px ;
+}
