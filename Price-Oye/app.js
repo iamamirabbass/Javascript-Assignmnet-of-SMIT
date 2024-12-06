@@ -326,16 +326,14 @@ var watches = {
     selectedProduct = event.target.value;
   }
   
-  var productImage = document.getElementById("productimage");
+  var productImage = document.getElementById("productImage");
   var producttitle=document.getElementById("producttitle");
-  var productPrice = document.getElementById("price");
   function searchProduct() {
     for (var keys in watches[selectedBrand]) {
       if (watches[selectedBrand][keys].name === selectedProduct) {
         console.log(watches[selectedBrand][keys]);
         productImage.src = watches[selectedBrand][keys].img;
         producttitle = watches[selectedBrand][keys].name;
-        productPrice = watches[selectedBrand][keys].price;
       }
     }
   
