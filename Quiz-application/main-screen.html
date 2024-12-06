@@ -6,19 +6,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap.css">
 <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
+    <!-- NAVBAR -->
 
-    
-    <!-- Navabr -->
-
-
-
-    <div class="navbar-parent">
+    <div class="navbar-parent container-fluid">
 
 
-        <nav class="navbar navbar-expand-lg  ">
+        <nav class="navbar navbar-expand-lg   " >
             <div class="container-fluid d-flex justify-content-space-around ">
               <a class="navbar-brand" href="#"><img src="assets/smit.png" alt=""></a>
               <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,50 +31,52 @@
                     <a class="nav-link" href="#">Pricing</a>
                   </li>
                 </ul> -->
-
-                
-                <span class="navbar-text d-flex  gap-5 me-4">
-                  <button class="result-btn"><b>Result</b></button>
-                  <h4>AMIR <i class="fa-solid fa-right-from-bracket"></i></h4>
+                <span class="navbar-text">
+                  <h4>V O.1 BETA</h4>
                 </span>
               
             </div>
           </nav>
     </div>
- <!-- Navabr END -->
 
-
- <div class="result-section-parent">
-    <div class="main-section ">
-        
-    <div class="welcome-user d-flex justify-content-space-around"  >HTML Quiz</div>
-    <hr style="width:1000px">
-<div class="d-flex justify-content-center">
-    <div class="result-box">
-        <div class="d-flex justify-content-center result-greetings">Congratulation! You're Passed!</div>
-        <hr style="width:100%">
-        <div class="result-questions-box d-flex justify-content-between">
-            <span style="font-size: 20px; color: #8DC63F;">Total Questions</span>
-        <span class="quetions-no"><b>15</b></span>
-        </div>
-        <hr style="width:100%">
-        <div class="result-questions-box d-flex justify-content-between">
-            <span style="font-size: 20px; color: #8DC63F;">Correct Questions</span>
-        <span class="quetions-no"><b>15</b></span>
-        </div>
-    </div>
+    <!-- navbar-end -->
+   
     
+    <div class="quiz-box-parent d-flex  justify-content-center mt-5">
+    <div id="quizWindow" class="" >
+      <div class="question-box"> <h2 class="ms-3"  id="question">Question will appear herse</h2></div>  
+      
+
+        <ul>
+          <div class="options-box mt-5 ps-3">
+            <li>
+                <input type="radio" id="option1" name="quizOption">
+                <label id="label1" for="option1">Some Option Here</label>
+            </li>
+          </div>
+          <div class="options-box mt-3 ps-3">
+            <li>
+                <input type="radio" id="option2" name="quizOption">
+                <label id="label2" for="option2">Some Option Here</label>
+            </li>
+          </div>
+            <div class="options-box mt-3 ps-3">
+            <li>
+                <input type="radio" id="option3" name="quizOption">
+                <label id="label3" for="option3">Some Option Here</label>
+            </li>
+          </div>
+            <div class="options-box mt-3 ps-3">
+            <li>
+                <input type="radio" id="option4" name="quizOption">
+                <label id="label4" for="option4">Some Option Here</label>
+            </li>
+          </div>
+          <button class="mt-5 next-btn" onclick="next()">Next</button>
+        </ul>
+        
+    </div>
   </div>
-
-  <div class="circle-parent d-flex justify-content-center mt-5">
-  <div class="result-circle d-flex justify-content-center align-items-center"> 50% </div>  
-
-</div>
-<div class="d-flex justify-content-center align-items-center mt-5"><button class="back-to-home" style="padding: 5px 10px ;"> Back To Home</button></div>
-</div>
-
-  
-</div>
 
 
     <script src="popper.js"></script>
