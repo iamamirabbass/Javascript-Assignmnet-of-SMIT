@@ -115,6 +115,76 @@
     background-color: #2675B5;
 }
 
-.card-body{
+/* .card-body{
     padding-right:150px ;
+} */
+
+.box-1{
+    height: 160px;
+    width: 300px;
+    border-style:solid;
+    border-width: thin;
+}
+
+.box-btn{
+    padding: 3px 80px;
+    background-color: white;
+    color: #8DC63F;
+    border-color: #476d13;
+}
+
+.box-btn:hover{
+    background-color: #0C6DB7;
+    color: white;
+}
+.box-1 p{
+    color: #8DC63F;
+}
+.welcome-user{
+    font-size: 40px;
+    font-weight: lighter;
+    color: #8DC63F;
+
+}
+
+
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+td {
+    font-weight: normal;
+}
+
+
+.start-btn{
+    padding: 10px 25px 10px 25px;
+    background-color: #2675B5;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-style: none;
+    border-radius: 10px;   
+}
+
+.start-btn:hover{
+    background-color:#8DC63F;
+}
+
+.quetions-no{
+    margin-left: 200px;
+}
+.result-box{
+    margin-top: 100px;
 }
