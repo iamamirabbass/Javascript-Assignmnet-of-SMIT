@@ -87,7 +87,7 @@
 
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label mt-3"> <i class="fa-solid fa-envelope me-2"></i>Your Email </label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="email" id="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
 
           <label for="exampleFormControlInput1" class="form-label label-2 mt-3"> <i class="fa-solid fa-lock me-1"></i> Your Password</label>
@@ -100,7 +100,7 @@
 
         <div class="modal-footer d-flex justify-content-center">
           <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-          <button type="button" class="btn btn-primary Sign-Up-btn">Sign-Up</button>
+          <button type="button" class="btn btn-primary Sign-Up-btn" onclick="signup()">Sign-Up</button>
         </div>
       </div>
     </div>
@@ -133,7 +133,7 @@
 
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label mt-3"> <i class="fa-solid fa-envelope me-2"></i>Your Email </label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <input type="email" class="form-control" id="email" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
 
         <label for="exampleFormControlInput1" class="form-label label-2 mt-3"> <i class="fa-solid fa-lock me-1"></i> Your Password</label>
@@ -146,7 +146,7 @@
 
       <div class="modal-footer d-flex justify-content-center">
         <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-        <button type="button" class="btn btn-primary Login-btn">Login</button>
+        <button type="button" onclick="login()" class="btn btn-primary Login-btn">Login</button>
       </div>
     </div>
   </div>
