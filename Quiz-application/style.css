@@ -267,7 +267,7 @@ ul{
 
 
 .next-btn:hover{
-    background-color: #0C6DB7;
+    background-color:#476d13;
     color: white;
 }
 
@@ -306,3 +306,34 @@ ul{
 } 
 
 
+
+
+.resultWindow {
+    display: none;
+}
+
+.redText {
+    color: red;
+    font-weight: bold0;
+}
+
+.greenText {
+    color: green;
+    font-weight: 800;
+}
+
+
+
+.submit-btn{
+    padding: 3px 40px;
+    background-color:#0C6DB7;
+    color: white;
+    border:none;
+    border-radius: 5px;
+}
+
+
+.submit-btn:hover{
+    background-color:#1a5c92;
+    color: white;
+}

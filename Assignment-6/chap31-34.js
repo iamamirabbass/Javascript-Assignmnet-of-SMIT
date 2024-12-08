@@ -82,3 +82,17 @@
 // var passed_days=new Date()-ramadan_2015;
 // var convertion=1000*60*60*24;
 // document.write(`<b> ${Math.floor(passed_days/convertion)}</b> days have passed since 1st Ramadan, 2015`)
+
+
+// ************************************************************QNO10*****************************************************
+
+    // var reference_date_userinput = prompt("Enter The Date In Thsi Format (01,06,2024)");
+    // var reference_date = new Date(reference_date_userinput);
+    // var begning_2015 = new Date("1,1,2015");
+    // var result = reference_date - begning_2015;
+    // document.write(result);
+
+
+    // ************************************************************QNO11*****************************************************
+
+    
