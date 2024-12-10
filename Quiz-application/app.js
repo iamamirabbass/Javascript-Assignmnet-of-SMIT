@@ -101,56 +101,6 @@ var htmlQuiz = [
       option4: "url",
       answer: "a",
     },
-  //   {
-  //     question:
-  //       "Which attribute is used to define the background color of a webpage in HTML?",
-  //     option1: "bgcolor",
-  //     option2: "color",
-  //     option3: "background",
-  //     option4: "style",
-  //     answer: "bgcolor",
-  //   },
-  //   {
-  //     question: "What is the correct HTML element for inserting a line break?",
-  //     option1: "break",
-  //     option2: "br",
-  //     option3: "hr",
-  //     option4: "line",
-  //     answer: "br",
-  //   },
-  //   {
-  //     question: "Which tag is used for creating an ordered list in HTML?",
-  //     option1: "ul",
-  //     option2: "li",
-  //     option3: "ol",
-  //     option4: "dl",
-  //     answer: "ol",
-  //   },
-  //   {
-  //     question: "Which tag is used to define a table in HTML?",
-  //     option1: "table",
-  //     option2: "tr",
-  //     option3: "td",
-  //     option4: "thead",
-  //     answer: "table",
-  //   },
-  //   {
-  //     question: "Which HTML tag is used to display a form in a webpage?",
-  //     option1: "input",
-  //     option2: "form",
-  //     option3: "button",
-  //     option4: "textarea",
-  //     answer: "form",
-  //   },
-  //   {
-  //     question:
-  //       "What is the default value of the type attribute for an <input> tag in HTML?",
-  //     option1: "text",
-  //     option2: "password",
-  //     option3: "checkbox",
-  //     option4: "radio",
-  //     answer: "text",
-  //   },
   ];
   
   var question = document.getElementById("question");
@@ -211,7 +161,7 @@ var htmlQuiz = [
         }
       }
     }
-  
+
     // if no option selected ( if block )
     if (!radioChecked) {
       Swal.fire({
@@ -226,8 +176,11 @@ var htmlQuiz = [
         questionCount++;
         deSelect();
         renderQuestion();
+        // submitbutton.style.display= 'none'
       } else {
-         showResult()
+        nextbutton.style.display = 'none'
+        //  showResult()
+        submitbutton.style.display= 'block'
       }
     }
   }
