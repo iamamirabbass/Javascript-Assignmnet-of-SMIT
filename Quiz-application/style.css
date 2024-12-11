@@ -8,9 +8,13 @@
     /* width: 100px; */
 }
 
-.navbar-text h4{
+.toggle-container h4{
     color: #8DC63F;
-   
+   margin-right: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
 }
 
 .navbar-text h4:hover{
@@ -335,5 +339,30 @@ ul{
 
 .submit-btn:hover{
     background-color:#1a5c92;
+    color: white;
+}
+
+
+
+.mode_btn button{
+    padding:3px 10px ;
+     background-color: #8DC63F;
+     border-radius: 5px;
+     color: #f2f2f2;
+     border-style: none;
+     
+}
+
+.mode_btn button:hover{
+    background-color:#476d13;
+}
+
+
+.darkBody  {
+    background-color: black;
+    
+}
+
+.darkBody h1 {
     color: white;
 }

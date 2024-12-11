@@ -7,7 +7,7 @@
 </head>
 <link rel="stylesheet" href="bootstrap.css">
 <link rel="stylesheet" href="style.css">
-<body>
+<body id="body">
     
 <!-- navbar -->
 
@@ -33,9 +33,18 @@
                 <a class="nav-link" href="#">Pricing</a>
               </li>
             </ul> -->
-            <span class="navbar-text">
-              <h4>V O.1 BETA</h4>
-            </span>
+        
+            
+              
+              <span class="navbar-text d-flex gap-3">
+                <h4>V O.1 BETA</h4>
+                <div class="mode_btn ">
+                  <Button style="margin-right: 5px;" onclick="lightMode()">Light <i class="fa-regular fa-sun"></i></Button>
+                  <Button onclick="darkMode()">Dark <i class="fa-regular fa-moon"></i></Button>
+                </div>
+              </span>
+            
+            
           
         </div>
       </nav>
@@ -159,6 +168,7 @@
    <script src="bundle.js"></script>
    <script src="app.js"></script>
    <script src="https://kit.fontawesome.com/d772ee3a68.js" crossorigin="anonymous"></script>
+   
  
 </body>
 </html>

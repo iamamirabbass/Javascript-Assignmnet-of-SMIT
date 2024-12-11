@@ -34,10 +34,12 @@ function signup() {
         email: user_email,
         password: user_password,
     };
-
     alert("Signup successful!");
+
     
 }
+
+
 
 function login() {
     var login_user_email = document.getElementById('email').value;
@@ -49,11 +51,13 @@ function login() {
     ) {
         alert("Login successful!");
         window.location.assign("welcomescreen.html");
-        document.getElementById("welcomeuser").innerHTML = saved_user.name;
+        document.getElementById("welcomeuser").innerHTML = localStorage.getItem('username'); 
     } else {
         alert("Invalid email or password!");
+        
     }
 }   
+
 
 // redirectto quiz subject2
 function course_join(){
@@ -186,8 +190,10 @@ var htmlQuiz = [
   }
   
   function showResult() {
-    quizWindow.style.display = 'none'
-    resultWindow.style.display = 'block'
+    // quizWindow.style.display = 'none'
+    // resultWindow.style.display = 'block'
+   
+    window.location.assign("result.html")
 
       var percentage = Math.round(score / htmlQuiz.length * 100)
       var resultStatus = ''
@@ -202,14 +208,89 @@ var htmlQuiz = [
       announcement.innerHTML = resultStatus
       totalQuestions.innerHTML = htmlQuiz.length
       correctQuestion.innerHTML = score 
-      percentageSpace.innerHTML = `Your Percentage is ${percentage} %`
+      percentageSpace.innerHTML = `${percentage} %`
 
-      
+     
   }
   
   window.onload = renderQuestion();
   
-  function submit(){
-    window.location.assign("result.html")
+  // function submit(){
+  //   window.location.assign("result.html")
 
+  // }
+
+
+  // function lightMode() {
+  //   localStorage.setItem("mode", "light");
+  //   checkMode()
+  // }
+  
+  // function darkMode() {
+  //   localStorage.setItem("mode", "dark");
+  //   checkMode()
+  // }
+
+  // var body= document.getElementById('body')
+  // function checkmode(){
+  //   var currentmode=localStorage.getItem("mode");
+  //   if(currentmode==="dark"){
+  //     body.className="darkbody"
+      
+  //   }
+  //   else{
+  //     body.className="lightbody"
+  //   }
+  // }
+
+
+
+  // function bydefault(){
+  //   var modestatus=localStorage.getItem('mode');
+  //   if(modestatus=== null){
+  //     localStorage.setItem("mode" , "light");
+  //     checkmode();
+  //     }
+  //     else{
+  //       checkMode();
+  //     }
+  // }
+
+  // window.onload = setByDefault();
+
+
+
+  function lightMode() {
+    localStorage.setItem("mode", "light");
+    checkMode()
   }
+  
+  function darkMode() {
+    localStorage.setItem("mode", "dark");
+    checkMode()
+  }
+  
+  var body = document.getElementById('body')
+  
+  function checkMode() {
+    var currentMode = localStorage.getItem("mode");
+    
+    console.log(body)
+    if (currentMode === "dark") {
+      body.className = "darkBody";
+    } else {
+      body.className = "lightBody";
+    }
+  }
+  
+  function setByDefault() {
+    var checkModeState = localStorage.getItem("mode");
+    if (checkModeState === null) {
+      localStorage.setItem("mode" , "light");
+      checkMode();
+    } else {
+      checkMode();
+    }
+  }
+  
+  window.onload = setByDefault();
