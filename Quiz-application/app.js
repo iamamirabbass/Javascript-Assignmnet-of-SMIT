@@ -1,3 +1,39 @@
+function lightMode() {
+  localStorage.setItem("mode", "light");
+  checkMode()
+}
+
+function darkMode() {
+  localStorage.setItem("mode", "dark");
+  checkMode()
+}
+
+var body = document.getElementById('body')
+
+function checkMode() {
+  var currentMode = localStorage.getItem("mode");
+  
+  console.log(body)
+  if (currentMode === "dark") {
+    body.className = "darkBody";
+  } else {
+    body.className = "lightBody";
+  }
+}
+
+function setByDefault() {
+  var checkModeState = localStorage.getItem("mode");
+  if (checkModeState === null) {
+    localStorage.setItem("mode" , "light");
+    checkMode();
+  } else {
+    checkMode();
+  }
+}
+
+window.onload = setByDefault();
+
+
 // let saved_user={};
 // function signup(){
 //     var user_name=document.getElementById('username')
@@ -21,7 +57,7 @@
 //     } 
 // }
 
-let saved_user = {}; // Global object to store user data
+let saved_user = {}; 
 
 function signup() {
     var user_name = document.getElementById('username').value;
@@ -214,6 +250,12 @@ var htmlQuiz = [
   }
   
   window.onload = renderQuestion();
+
+
+
+  function backtohome(){
+    window.location.assign("welcomescreen.html")
+  }
   
   // function submit(){
   //   window.location.assign("result.html")
@@ -221,7 +263,7 @@ var htmlQuiz = [
   // }
 
 
-  // function lightMode() {
+  // function lightMode() { 
   //   localStorage.setItem("mode", "light");
   //   checkMode()
   // }
@@ -260,37 +302,4 @@ var htmlQuiz = [
 
 
 
-  function lightMode() {
-    localStorage.setItem("mode", "light");
-    checkMode()
-  }
   
-  function darkMode() {
-    localStorage.setItem("mode", "dark");
-    checkMode()
-  }
-  
-  var body = document.getElementById('body')
-  
-  function checkMode() {
-    var currentMode = localStorage.getItem("mode");
-    
-    console.log(body)
-    if (currentMode === "dark") {
-      body.className = "darkBody";
-    } else {
-      body.className = "lightBody";
-    }
-  }
-  
-  function setByDefault() {
-    var checkModeState = localStorage.getItem("mode");
-    if (checkModeState === null) {
-      localStorage.setItem("mode" , "light");
-      checkMode();
-    } else {
-      checkMode();
-    }
-  }
-  
-  window.onload = setByDefault();

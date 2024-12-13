@@ -8,15 +8,18 @@
     /* width: 100px; */
 }
 
-.toggle-container h4{
+/* .toggle-container h4{
     color: #8DC63F;
    margin-right: 20px;
    display: flex;
    justify-content: center;
    align-items: center;
    position: relative;
-}
+} */
 
+.navbar-text h4{
+    color:#8DC63F;
+}
 .navbar-text h4:hover{
     color: #2675B5;
 }
@@ -26,6 +29,7 @@
     align-items: center;
     margin-top: 100px;
 }
+
 .hero-text{
     font-size: 80px;
     color: #0C6DB7;
@@ -358,6 +362,8 @@ ul{
 }
 
 
+/* style for dark theme  */
+
 .darkBody  {
     background-color: black;
     
@@ -365,4 +371,54 @@ ul{
 
 .darkBody h1 {
     color: white;
+}
+
+.darkBody .hero-text-discription{
+    color: white;
+}
+
+.darkBody .quiz-name{
+    color: white;
+}
+
+
+.darkBody .navbar{
+    /* background-color: #8DC63F; */
+    background-color: black;
+    border-color: #8DC63F;
+    border-radius: 20px;
+}
+
+
+
+.darkBody .modal-bg{
+    background-color: rgb(22, 21, 21);
+    color: white;
+}
+
+.darkBody .darktheme_box h5{
+    color: white;
+}
+
+.darkBody .quiz-questions{
+    color: white;
+}
+
+.darkBody .quiz_selection_accordian{
+    background-color: rgb(22, 21, 21);
+    color: white;
+}
+
+.darkBody .quiz_selection_accordian_bg{
+    background-color: rgb(22, 21, 21);
+    color: white;
+}
+
+.darkBody .accordion-body{
+    background-color: rgb(22, 21, 21);
+    color: white;
+}
+
+.darkBody .accordion-body table  tr th{
+    background-color: rgb(22, 21, 21);
 }
