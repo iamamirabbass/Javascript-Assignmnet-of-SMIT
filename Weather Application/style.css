@@ -1,0 +1,54 @@
+body{
+    background-image: url(assest/Background.png);
+    /* background-size: cover; */
+    background-color: black;
+    background-size:cover;
+}
+
+.navbar-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.form-control{
+    background: none ;
+    color: #E5E5E5;
+    
+}
+
+.form-control:hover{
+    background: none ;
+}
+
+.search-btn {
+    color: #E5E5E5;
+    border-color:#E5E5E5 ;
+}
+.search-btn:hover{
+    color: black;
+    border-color:#E5E5E5 ;
+    background-color: #E5E5E5
+}
+
+.form-control::placeholder{
+    color: #E5E5E5;
+}
+
+
+.main-box-parent{
+    display: flex;
+    justify-content: center;
+    
+}
+.main-box{
+    height: 760px;
+    width: 648px;
+    margin-top: 60px;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.4px);
+-webkit-backdrop-filter: blur(4.4px);
+border: 1px solid rgba(255, 255, 255, 0.27);
+}
