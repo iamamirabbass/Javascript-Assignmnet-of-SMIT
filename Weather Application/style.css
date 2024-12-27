@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'font1';
+    src: url(assest/Sarabun/Sarabun-Regular.ttf);
+}
+@font-face {
+    font-family: 'font2';
+    src: url(assest/Sarabun/Sarabun-Medium.ttf);
+}
+@font-face {
+    font-family: 'font3';
+    src: url(assest/Sarabun/Sarabun-Light.ttf);
+}
 body{
     background-image: url(assest/Background.png);
     /* background-size: cover; */
@@ -51,4 +63,139 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(4.4px);
 -webkit-backdrop-filter: blur(4.4px);
 border: 1px solid rgba(255, 255, 255, 0.27);
+}
+
+
+
+.location{
+    font-family: 'font1';
+    font-size: 40px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+
+}
+
+.tempreature{
+    font-family: 'font2';
+    font-size: 100px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.weather-condition{
+    font-family: 'font3';
+    font-size: 30px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.time-parent{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        margin-top: 80px;
+}
+
+.time-parent div{
+    font-family: 'font2';
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.mooon-parent{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.mooon-parent div i{
+    font-size: 30px;
+}
+
+
+.time-temp{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.time-temp div{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.hr{
+    display: flex;
+    justify-content: center;   
+}
+
+
+hr{
+    width: 550px;
+    color: #E5E5E5;
+}
+
+.details{
+    font: 'font2';
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.rise-set-parent{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sunrise{
+    margin-top: 70px;
+    color: #FFFFFF;
+}
+
+.sunset{
+    margin-top: 70px;
+    color: #FFFFFF;
+
+}
+
+.rise-set-time-parent{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 50px;
+    margin-top: 0%;
+}
+.other-details-primary{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.other-details-primary div{
+    font-family: 'font2';
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.other-details-secondary{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+
+.other-details-secondary div{
+    font-family: 'font2';
+    font-size: 15px;
+    color: #B7B7B7;
+}
+
+
+.three{
+    display: flex;
+    justify-content: center;
 }
