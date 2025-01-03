@@ -11,9 +11,10 @@
     src: url(assest/Sarabun/Sarabun-Light.ttf);
 }
 body{
-    background-image: url(assest/Background.png);
+    /* background-image: url(assest/Background.png); */
+    background-image: url(assest/Lx0q.gif);
     /* background-size: cover; */
-    background-color: black;
+    /* background-color: black; */
     background-size:cover;
 }
 
@@ -23,7 +24,7 @@ body{
 }
 
 .form-control{
-    background: none ;
+    /* background: none ; */
     color: #E5E5E5;
     
 }
@@ -33,13 +34,13 @@ body{
 }
 
 .search-btn {
-    color: #E5E5E5;
-    border-color:#E5E5E5 ;
+    color: white;
+    border-color:white ;
 }
 .search-btn:hover{
-    color: black;
-    border-color:#E5E5E5 ;
-    background-color: #E5E5E5
+    color: white;
+    border-color:white ;
+    background-color:white;
 }
 
 .form-control::placeholder{
@@ -150,6 +151,7 @@ hr{
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
 .sunrise{
@@ -168,8 +170,9 @@ hr{
     justify-content:space-evenly;
     gap: 50px;
     margin-top: 0%;
+    
 }
-.other-details-primary{
+/* .other-details-primary{
     display: flex;
     justify-content:space-evenly;
     
@@ -191,7 +194,37 @@ hr{
 .other-details-secondary div{
     font-family: 'font2';
     font-size: 15px;
-    color: #B7B7B7;
-}
+    color: white
+} */
+
+
+
+
+
+.other-details-primary, .other-details-secondary {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  .other-details-primary div,
+  .other-details-secondary div {
+    flex: 1;
+    text-align: center;
+    
+  }
+
+  .other-details-primary div {
+    font-weight: bold;
+    font-family: 'font2';
+    color: white;
+  }
+
+  .other-details-secondary div {
+    font-style: italic;
+    color: white;
+  }
 
 
