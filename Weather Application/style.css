@@ -1,230 +1,230 @@
-@font-face {
-    font-family: 'font1';
-    src: url(assest/Sarabun/Sarabun-Regular.ttf);
-}
-@font-face {
-    font-family: 'font2';
-    src: url(assest/Sarabun/Sarabun-Medium.ttf);
-}
-@font-face {
-    font-family: 'font3';
-    src: url(assest/Sarabun/Sarabun-Light.ttf);
-}
-body{
-    /* background-image: url(assest/Background.png); */
-    background-image: url(assest/Lx0q.gif);
-    /* background-size: cover; */
-    /* background-color: black; */
-    background-size:cover;
-}
+    @font-face {
+        font-family: 'font1';
+        src: url(assest/Sarabun/Sarabun-Regular.ttf);
+    }
+    @font-face {
+        font-family: 'font2';
+        src: url(assest/Sarabun/Sarabun-Medium.ttf);
+    }
+    @font-face {
+        font-family: 'font3';
+        src: url(assest/Sarabun/Sarabun-Light.ttf);
+    }
+    body{
+        /* background-image: url(assest/Background.png); */
+        background-image: url(assest/Lx0q.gif);
+        /* background-size: cover; */
+        /* background-color: black; */
+        background-size:cover;
+    }
 
-.navbar-parent{
-    display: flex;
-    justify-content: center;
-}
-
-.form-control{
-    /* background: none ; */
-    color: #E5E5E5;
-    
-}
-
-.form-control:hover{
-    background: none ;
-}
-
-.search-btn {
-    color: white;
-    border-color:white ;
-}
-.search-btn:hover{
-    color: white;
-    border-color:white ;
-    background-color:white;
-}
-
-.form-control::placeholder{
-    color: #E5E5E5;
-}
-
-
-.main-box-parent{
-    display: flex;
-    justify-content: center;
-    
-}
-.main-box{
-    height: 760px;
-    width: 648px;
-    margin-top: 60px;
-    /* From https://css.glass */
-background: rgba(255, 255, 255, 0.22);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4.4px);
--webkit-backdrop-filter: blur(4.4px);
-border: 1px solid rgba(255, 255, 255, 0.27);
-}
-
-
-
-.location{
-    font-family: 'font1';
-    font-size: 40px;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-
-}
-
-.tempreature{
-    font-family: 'font2';
-    font-size: 100px;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    
-}
-
-.weather-condition{
-    font-family: 'font3';
-    font-size: 30px;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    
-}
-
-.time-parent{
+    .navbar-parent{
         display: flex;
         justify-content: center;
-        gap: 60px;
-        margin-top: 80px;
-}
+    }
 
-.time-parent div{
-    font-family: 'font2';
-    font-size: 25px;
-    color: #FFFFFF;
-}
+    .form-control{
+        /* background: none ; */
+        color: black;
+        
+    }
 
-.mooon-parent{
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-}
-.mooon-parent div i{
-    font-size: 30px;
-}
+    .form-control:hover{
+        background: none ;
+    }
 
+    .search-btn {
+        color: white;
+        border-color:white ;
+    }
+    .search-btn:hover{
+        color: black;
+        border-color:white ;
+        background-color:white;
+    }
 
-.time-temp{
-    display: flex;
-    justify-content: center;
-    gap: 90px;
-}
-
-.time-temp div{
-    color: #FFFFFF;
-    font-size: 18px;
-}
-
-.hr{
-    display: flex;
-    justify-content: center;   
-}
+    .form-control::placeholder{
+        color: #E5E5E5;
+    }
 
 
-hr{
-    width: 550px;
-    color: #E5E5E5;
-}
-
-.details{
-    font: 'font2';
-    font-size: 25px;
-    color: #FFFFFF;
-    margin-left: 20px;
-}
-
-.rise-set-parent{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-bottom: 50px;
-}
-
-.sunrise{
-    margin-top: 70px;
-    color: #FFFFFF;
-}
-
-.sunset{
-    margin-top: 70px;
-    color: #FFFFFF;
-
-}
-
-.rise-set-time-parent{
-    display: flex;
-    justify-content:space-evenly;
-    gap: 50px;
-    margin-top: 0%;
-    
-}
-/* .other-details-primary{
-    display: flex;
-    justify-content:space-evenly;
-    
-}
-.other-details-primary div{
-    font-family: 'font2';
-    font-size: 25px;
-    color: #FFFFFF;
-    margin-top: 40px;
-}
-
-.other-details-secondary{
-    display: flex;
-    justify-content:space-evenly;
-    
-}
-
-
-.other-details-secondary div{
-    font-family: 'font2';
-    font-size: 15px;
-    color: white
-} */
+    .main-box-parent{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .main-box{
+        height: 760px;
+        width: 648px;
+        margin-top: 60px;
+        /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(255, 255, 255, 0.27);
+    }
 
 
 
+    .location{
+        font-family: 'font1';
+        font-size: 40px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .tempreature{
+        font-family: 'font2';
+        font-size: 100px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .weather-condition{
+        font-family: 'font3';
+        font-size: 30px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .time-parent{
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin-top: 80px;
+    }
+
+    .time-parent div{
+        font-family: 'font2';
+        font-size: 25px;
+        color: #FFFFFF;
+    }
+
+    .mooon-parent{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+    }
+    .mooon-parent div i{
+        font-size: 30px;
+    }
 
 
-.other-details-primary, .other-details-secondary {
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 0;
-  }
+    .time-temp{
+        display: flex;
+        justify-content: center;
+        gap: 90px;
+    }
 
-  .other-details-primary div,
-  .other-details-secondary div {
-    flex: 1;
-    text-align: center;
-    
-  }
+    .time-temp div{
+        color: #FFFFFF;
+        font-size: 18px;
+    }
 
-  .other-details-primary div {
-    font-weight: bold;
-    font-family: 'font2';
-    color: white;
-  }
+    .hr{
+        display: flex;
+        justify-content: center;   
+    }
 
-  .other-details-secondary div {
-    font-style: italic;
-    color: white;
-  }
+
+    hr{
+        width: 550px;
+        color: #E5E5E5;
+    }
+
+    .details{
+        font: 'font2';
+        font-size: 25px;
+        color: #FFFFFF;
+        margin-left: 20px;
+    }
+
+    .rise-set-parent{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    .sunrise{
+        margin-top: 70px;
+        color: #FFFFFF;
+    }
+
+    .sunset{
+        margin-top: 70px;
+        color: #FFFFFF;
+
+    }
+
+    .rise-set-time-parent{
+        display: flex;
+        justify-content:space-evenly;
+        gap: 50px;
+        margin-top: 0%;
+        
+    }
+    /* .other-details-primary{
+        display: flex;
+        justify-content:space-evenly;
+        
+    }
+    .other-details-primary div{
+        font-family: 'font2';
+        font-size: 25px;
+        color: #FFFFFF;
+        margin-top: 40px;
+    }
+
+    .other-details-secondary{
+        display: flex;
+        justify-content:space-evenly;
+        
+    }
+
+
+    .other-details-secondary div{
+        font-family: 'font2';
+        font-size: 15px;
+        color: white
+    } */
+
+
+
+
+
+    .other-details-primary, .other-details-secondary {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .other-details-primary div,
+    .other-details-secondary div {
+        flex: 1;
+        text-align: center;
+        
+    }
+
+    .other-details-primary div {
+        font-weight: bold;
+        font-family: 'font2';
+        color: white;
+    }
+
+    .other-details-secondary div {
+        font-style: italic;
+        color: white;
+    }
 
 
