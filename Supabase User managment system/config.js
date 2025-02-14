@@ -1,0 +1,6 @@
+const {creatclient}=supabase;
+const supabaseUrl = 'https://aavfdpilxfzihpijfskr.supabase.co'
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFhdmZkcGlseGZ6aWhwaWpmc2tyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzcxMzc4ODIsImV4cCI6MjA1MjcxMzg4Mn0.zIkYeG7v5ma3fezwYJCX75ao4tBLcdZM-b_zf4rPh8M'
+const supabaseClient = createClient(supabaseUrl, supabaseKey);
+
+window.supabase=supabaseClient;
